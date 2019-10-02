@@ -1,0 +1,209 @@
+/*Start First Categories*/
+.first-categories{
+    padding: 40px 0;
+    
+
+    .big-box{
+        height: 405px;
+        width: 100%;
+        @media(max-width: 575px){
+            height: auto;
+            margin: 15px auto;
+        }//media
+    }//big-box
+
+
+
+    .img-box{
+        height: 190px;
+        width: 100%;
+        margin-bottom: 15px;
+    }//img-box
+
+    .curve-box{
+        height: 200px;
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+
+    .big-box, .img-box, .curve-box{
+        box-shadow: 4px 2px 5px 1px #f3f0f0;
+        border-radius: 20px;
+    }
+}//first-categories
+
+/*End First Categories*/
+
+
+/*Start Section Tabs*/
+
+/*Start Categories Tabs*/
+.section-tabs{
+    .col-md-3{
+        padding-left: 0px !important;
+        @media(max-width: 575px){
+        padding-left: 15px !important;
+        }//media
+    }//custom-col
+    .col-sm-12{ 
+        padding-right: 0px;
+        @media(max-width: 575px){
+            padding-right: 15px;
+        }//media
+  
+    }
+    @media(max-width: 575px){
+        padding: 30px 0;
+        padding-bottom: 0;
+    }
+
+    .about-tabs{
+        position: relative;
+        padding: 5px 15px;
+        background: #FFFF;
+        height: 475px;
+        overflow: overlay;
+        @media(min-width: 768px) and (max-width: 991px) {
+            padding: 5px 10px;
+        }//media
+        @media(max-width: 575px){
+            height: 525px;
+        }//media
+
+    }//about-tabs
+
+.nav{
+    
+    .cover-all{
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+        
+        
+        &:hover h5{
+        color: $redColor;
+        
+        }
+    }
+    
+    li {
+        margin-bottom: 10px;
+        @media(min-width: 768px) and (max-width: 991px){
+            margin-bottom: 0;
+        }
+        
+        .main-cover{    
+            .video-box{
+                width: 240px;
+                height: 225px;
+                @media(min-width:768px) and (max-width:991px){
+                    width: 148px;
+                    height: 148px;
+                    margin-bottom: 10px;
+                }//media
+                @media(max-width: 575px){
+                    margin: 15px auto;
+                    width: 100%;
+                    
+                }//media
+                img{
+                    height: 100%;
+                    object-fit: cover;
+                }//img
+            }//video-box
+
+
+            
+        }//main-cover
+        a{
+            text-decoration: none; 
+            color: #000; 
+            font-size: 14px;
+            font-weight: bold;
+            
+            
+        }//a
+        .active h5{
+            color: $redColor;
+        }//active
+    }//li
+}//nav
+
+.cover-content{        
+    
+
+}//cover-content
+
+.about-content{
+    position: relative;
+    .main-background{
+        height: 475px;
+        background: #fff;
+        position: relative;
+        @media(max-width: 575px){
+            height: auto;
+            width: 100%;
+        }//media
+        .video-box{
+            width: 100%;
+            height: 475px;
+            object-fit: fill;
+            @media(max-width: 575px){
+               height: auto;
+            }//media
+        }//img
+
+        
+    }//main-background
+
+    h2{
+        font-size: 1.2em;
+        color: #fff;
+        padding: 5px;
+        margin: 0;
+        font-weight: normal;
+        overflow: hidden;
+        text-align: right;
+        
+        a{  
+            color: #fff;
+            text-decoration: none;
+            &:hover{
+              
+            }
+        }
+        
+    }//h2
+    
+    p{
+        margin: 4px 5px;
+        color: #f0f0f0;
+        text-align: right;
+        line-height: 20px !important;
+        font-size: 14px;
+        a{
+            color: $redColor;
+            text-decoration: none;
+            padding: 0 5px;
+            -webkit-transition: all .3s ease-in-out;
+            -moz-transition: all .3s ease-in-out;
+            -o-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;     
+            &:hover{
+                color: $whiteColor;
+            }
+        }//a
+    }//p
+    
+}//about-content
+
+}//section-tabs
+/*End Categories Tabs*/
+
+/*End Section Tabs*/

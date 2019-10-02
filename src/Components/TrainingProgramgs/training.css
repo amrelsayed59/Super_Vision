@@ -1,0 +1,76 @@
+/*Start Training Program*/
+.training-program {
+    background-color: #fdfdfd;
+  }
+  @media (max-width: 991px) {
+    .training-program {
+      text-align: center;
+    }
+  }
+  .training-program .training-img {
+    width: 540px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .training-program .training-img {
+      width: 460px;
+      height: 400px;
+    }
+  }
+  @media (max-width: 991px) {
+    .training-program .training-img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  }
+  .training-program .training-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  @media (max-width: 575px) {
+    .training-program .head {
+      text-align: center;
+      font-size: 18px;
+      padding: 0 10px;
+      line-height: 23px;
+    }
+  }
+  @media (max-width: 575px) {
+    .training-program .plans {
+      text-align: center;
+    }
+  }
+  .training-program .plans li {
+    margin-bottom: 15px;
+  }
+  .training-program .plans li:before {
+    font-family: 'FontAwesome';
+    content: "\f054";
+    color: #9fc588;
+    padding-right: 15px;
+  }
+  .training-program h4 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  .training-program .targted li {
+    display: inline-block;
+    margin: 0 50px;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .training-program .targted li {
+      margin: 0 35px;
+    }
+  }
+  @media (max-width: 575px) {
+    .training-program .targted li {
+      display: block;
+      text-align: center;
+    }
+  }
+  
+  /*End Training Program*/

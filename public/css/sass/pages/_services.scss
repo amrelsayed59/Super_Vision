@@ -1,0 +1,184 @@
+/*Start Services Section*/
+.our-services-section{
+    
+    //.col-md-6{padding-right: 0; padding-left: 0;}
+   
+    .services-box{
+        margin-bottom: 50px;
+        @media(max-width: 575px){
+            margin-bottom: 20px;
+            text-align: center;
+        }//media
+        .img-box{
+            width: 550px;
+            height: 340px;
+            @media(min-width: 992px) and (max-width: 1199px){
+                width: 440px;
+                height: 250px;
+            }//media
+            @media(min-width: 768px) and (max-width: 991px){
+                width: 330px;
+                height: 250px;
+            }//media
+            @media(max-width: 575px){
+                width: 100%;
+                height: auto;
+                margin-bottom: 10px;
+            }//media
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }//img
+        }//img-box
+        
+        p{
+            @media(max-width: 575px){
+               
+            }//media
+        }//p
+
+        .content-services{
+            padding-top: 10%;
+            @media(min-width: 992px) and (max-width: 1199px){
+                padding-top: 10%;
+            }//media
+            @media(min-width: 768px) and (max-width: 991px){
+                padding-top: 10%;
+            }//media
+            @media(max-width: 575px){
+                padding-top: 5%;
+                border-bottom: 1px solid #EEE;
+            }//media
+        }//content-services
+
+    }//services-box
+}
+/*End Services Section*/
+
+
+.second-overview{
+    position: relative;
+    height: 350px;
+    @media(min-width: 768px) and (max-width: 991px){
+        height: 300px;
+    }//media
+    @media(max-width: 575px){
+        height: 210px;
+    }//media
+    img{
+        position: absolute;
+        object-fit: fill;
+        width: 100%;
+        height: 100%;
+    }//img
+
+    .overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: rgba(66, 144, 200, 0.8);
+        z-index: 2;
+    }//overlay
+
+    .content{
+        position: relative;
+        z-index: 2;
+        padding-top: 10%;
+        color: #FFF;
+        @media(max-width: 575px){
+            padding-top: 18%;
+            text-align: center;
+        }//media
+        h2{
+            font-weight: bold;
+            font-size: 35px;
+           @media(max-width: 575px){
+
+           }//media
+        }//h2
+
+
+        .same-button{
+            margin-top: 30px;
+            .slider-more{
+                background-color: #FFF;
+                color: $blueColor;
+                &:hover{
+                    box-shadow: 0 0 9px 0px #959090;
+                    background-color: #000;
+                    color: #Fff;
+                }//hover
+                i{
+                    background-color: #6aa7d3;
+                    color: #FFF;
+                }//i
+    
+            }//slider-more
+        }//same-button
+
+        
+    }//content
+
+}//second-overview
+
+
+
+/*Start Services Detail*/
+.our-details{
+    background-color: #fdfdfd;
+    .services-details{
+        .img-box{
+            position: relative;
+            width: 80%;
+            height: 380px;
+            margin: 40px auto;
+           
+            @media(max-width: 575px){
+                width: 100%;
+                height: auto;
+            }//media
+            img{
+                width: 100%;
+                height: 100%;
+            }//img
+            .overlay{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                left: 0;
+                top: 0;
+                background-color: rgba(66, 144, 200, 0.8);
+                z-index: 2;
+            }//overlay
+        }//img-box
+        
+        .content-details{
+            .head-details{
+                margin-bottom: 20px;
+                font-weight: bold;
+                max-width: 75%;
+                margin: 20px auto;
+                line-height: 1.2;
+                font-size: 20px;
+                @media(max-width: 575px){
+                    max-width: 100%;
+                    font-size: 14px;
+                }//media
+            }//head-details
+            .prag-details{
+                max-width: 75%;
+                margin: auto;
+                line-height: 1.6 !important;
+                color: #2e2e2e;
+                @media(max-width: 575px){
+                    max-width: 95%;
+                }//media
+            }//prag-details
+        }//content-details
+
+    }//services-details
+}//out-services-section
+/*End  Services Detail*/

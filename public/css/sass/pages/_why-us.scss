@@ -1,0 +1,412 @@
+/*Start WhyUs Feature*/
+.why-us-feature{
+    .main-prag{
+        max-width: 45%;
+        margin: 15px auto;
+    }//main-prag
+    .box{
+        .img-box{
+            width: 170px;
+            height: 170px;
+            margin: 10px auto;
+            img{
+                width: 100%;
+                height: 100%;
+            }//img
+        }//img-box
+        p{
+            max-width: 70%;
+            margin: auto;
+        }//p
+    }//box
+    
+}//why-us-feature
+/*End WhyUs Feature*/
+
+.second-testim  {
+	background: url('../imgs/Doctors/tickets.jpeg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 600px;
+	position: relative;
+    background-color: #a8a8a8;
+    //clip-path: polygon(0 10%, 100% 0, 100% 50%, 100% 100%, 0 82%);
+    @media(min-width: 992px) and (max-width: 1199px){
+        height: 560px;
+    }//media
+    @media(min-width: 768px) and (max-width: 991px){
+        height: 560px;
+    }//media
+    @media(max-width: 575px){
+        height: 400px;
+    }
+    
+    .overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: rgba(0, 0, 0, .6);
+        z-index: 2;
+
+        h3 {
+            span{
+                color: #FFF !important;
+                @media(max-width: 575px){
+                    font-size: 20px;
+                }//media
+            }//span
+        }//h2
+    }//overlay
+
+    .carousel-inner {
+        position: relative;
+        z-index: 3
+    }//carousel-inner
+
+    .carousel-caption{
+
+      .events-box{
+        background: rgba(0, 0, 0, 0.66);
+        width: 650px;
+        height: 260px;
+        margin: auto;
+        border-radius: 20px;
+        overflow: hidden;
+        @media(min-width: 768px) and (max-width: 991px){
+            width: 540px;
+        }//media
+        @media(max-width: 575px){
+            width: 275px;
+        }//media
+        @media(max-width: 350px){
+            width: 235px;
+        }
+        .event-details{
+            width: 70%;
+            float: left;
+            padding: 35px 25px 0 25px;
+            @media(min-width: 768px) and (max-width: 991px){
+                padding: 25px 5px 0 5px;
+            }//media
+            @media(max-width: 575px){
+                padding: 15px 2px 0 2px;
+            }//media
+            .head{
+                color: #FFF;
+                font-size: 24px;
+                @media(min-width: 768px) and (max-width: 991px){
+                    font-size: 19px;
+                }//media
+                @media(max-width: 575px){
+                    font-size: 15px;
+                  
+                }//media
+                &:after{
+                    content: '';
+                    display: block;
+                    width: 50%;
+                    height: 1px;
+                    background: #fff;
+                    margin: 15px auto;
+                }//after
+            }//h3
+            .prag{
+                color: #FFF !important;
+                padding: 0 15px;
+                margin-bottom: 0;
+            }//prag
+        }//event-details
+
+        .events-date{
+            width: 30%;
+            float: left;
+            background: #9fc588;
+            height: 100%;
+            padding-top: 10%;
+            background: rgba(51, 139, 6, .3);
+            @media(max-width: 350px){
+                padding-top: 26%;
+            }//media
+            .number{
+                font-size: 40px;
+                font-weight: bold;
+                margin-bottom: 0;
+            }//number
+            .month{
+                font-weight: bold;
+                font-size: 20px;
+                color: #fff;
+                margin-bottom: 0;
+                letter-spacing: 2px;
+              
+                &:after{
+                    content: '';
+                    display: block;
+                    width: 40%;
+                    height: 1px;
+                    background: #fff;
+                    margin: auto;
+                }//after
+            }//month
+            .year{
+                font-weight: bold;
+                font-size: 25px;
+                color: #fff;
+                margin-bottom: 0;
+                letter-spacing: 2px;
+                &:after{
+                    content: '';
+                    display: block;
+                    width: 40%;
+                    height: 1px;
+                    background: #fff;
+                    margin: auto;
+                }//after
+
+            }//year
+        }//events-date
+       
+
+      }//events-box
+
+      
+
+    }//carousel-caption
+
+    .carousel-control-prev-icon, 
+    .carousel-control-next-icon{
+        padding: 15px;
+        width: 45px;
+        height: 45px;
+        background-origin: content-box;
+        border-radius: 50%;
+        background-color: $blueColor;
+        @media(max-width: 575px){
+            padding: 7px;
+            width: 25px;
+            height: 25px;
+        }//media
+    
+    }//icons
+
+    .carousel-indicators {
+        bottom: -50px;
+        @media(min-width:768px) and (max-width: 991px){
+            bottom: -35px;
+        }//media
+        @media(max-width: 575px){
+            bottom: -50px;
+        }//media
+        @media(max-width: 350px){
+            bottom: -30px;
+        }//media
+        li {
+            height: 15px;
+            width: 15px;
+            cursor: pointer;
+            border-radius: 50%;
+        }//li
+    }//carousel-indicators
+
+}//testim
+
+ 
+.second-testim .carousel-caption
+{
+	top: 50%;
+    margin-top: -158px;
+    @media(min-width: 768px) and (max-width: 991px){
+        top: auto;
+    }//media
+    @media(max-width: 575px){
+        top: auto;
+    }
+    @media(max-width: 350px){
+        margin-top: -175px;
+        margin-top: -215px;
+        top: auto;
+    }//media
+}//carousel-caption
+
+.second-testim .carousel-control-next, 
+.second-testim .carousel-control-prev
+{
+    z-index: 5;
+    @media(max-width: 575px){
+      right: 0;
+    }//media
+}
+
+.carousel-control-prev{
+    @media(max-width: 575px){
+        left: 10px;
+    }
+}//prev
+
+.second-testim .carousel-item {
+    height: 400px !important;
+    @media(max-width: 350px){
+        height: 430px !important;
+    }//media
+ }//carousel-item
+
+/*End Testimonials*/
+
+
+
+/*Start Testim WhyUs*/
+.testim-whyus{
+    background: #fdfdfd;
+    
+    .carousel{
+        position: relative;
+        width: 400px;
+        height: 400px;
+        border: 2px solid #FFF;
+        border-radius: 50%;
+        margin: auto;
+        -webkit-box-shadow: 0 0 9px 0px #959090;
+        -moz-box-shadow: 0 0 9px 0px #959090;
+        box-shadow: 0 0 9px 0px #959090;
+        overflow: hidden;
+        @media(max-width: 575px){
+            width: 300px;
+            height: 300px;
+        }//media
+        @media(max-width: 575px){
+            width: 250px;
+            height: 250px;
+        }//media
+    } 
+
+    .carousel-caption{
+        top: 35%;
+        @media(max-width: 575px){
+            top: 30%;
+        }//media
+        @media(max-width: 350px){
+            top: 41%;
+        }//media
+    }//carousel-caption
+
+    .carousel-inner{
+        .img-box{
+            width: 120px;
+            height: 120px;
+            margin: 20px auto;
+            @media(max-width: 575px){
+                width: 70px;
+                height: 70px;
+            }//media
+            img{
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+            }
+        }//img-box
+
+        .whyus-content{
+            color: #000 !important;
+            .head{
+                @media(max-width: 575px){
+                    font-size: 14px;
+                }//media
+            }//head
+            .prag{
+                line-height: 20px !important; 
+                @media(max-width: 575px){
+                    line-height: 16px !important;
+                }
+            }//prag
+            .name{
+                margin-top: 22px;
+                @media(max-width: 575px){
+                    margin-top: 0;
+                    font-size: 14px;
+                }
+            }
+            .position{line-height: 12px !important;}
+        }//whyus-content
+
+    }//carousel-inner
+
+    .carousel-control-prev {
+        left: 358px;
+        top: 30%;
+        @media (min-width: 1500px) and (max-width: 1920px) {
+            left: 31%;      
+        }
+        @media(min-width: 992px) and (max-width: 1199px){
+            top: 38%;
+            left: 212px;
+        }//media
+        @media(min-width: 768px) and (max-width: 991px){
+            top: 38%;
+            left: 104px;
+        }//media
+        @media(max-width: 575px){
+            top: 170px;
+            left: 22px;
+        }//media
+        @media(max-width: 350px){
+            left: 0;
+            top: 110px;
+        }//media
+        .carousel-control-prev-icon{
+            border-radius: 50% 0% 0% 50%;
+        }
+       
+    }//prev
+    .carousel-control-next {
+        right: 358px;
+        top: 30%;
+        @media (min-width: 1500px) and (max-width: 1920px) {
+            right: 31%;      
+        }
+        @media(min-width: 992px) and (max-width: 1199px){
+            top: 38%;
+            right: 212px;
+        }//media
+        @media(min-width: 768px) and (max-width: 991px){
+            top: 38%;
+            right: 104px;
+        }//media
+        @media(max-width: 575px){
+            top: 170px;
+            right: 22px;
+        }//media
+        @media(max-width: 350px){
+            right: 0;
+            top: 110px;
+        }//media
+        .carousel-control-next-icon{
+            border-radius: 0% 50% 50% 0%;
+        }
+   }//next
+}
+/*End Testim WhyUs*/
+
+
+/*Start Our Partner Section*/
+.our-partner{
+    .main-our-partner{
+        .img-box{
+            width: 150px;
+            height: 150px;
+            margin: 20px auto;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }//img
+        }
+
+    }//main-our-partner
+}//our-partner
+/*End Our Partner Section*/
+
+

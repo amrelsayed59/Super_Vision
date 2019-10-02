@@ -1,0 +1,247 @@
+{
+  "works": [
+    {
+      "id": 1,
+      "icon_name": "icon fa fa-chain fa-2x",
+      "title": "Mobile Ux",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+    },
+    {
+      "id": 2,
+      "icon_name": "icon fa fa-bolt fa-2x",
+      "title": "Mobile Ux",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+    },
+    {
+      "id": 3,
+      "icon_name": "icon fa fa-tachometer fa-2x",
+      "title": "Mobile Ux",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+    }
+  ],
+
+  "Slider": [
+    {
+      "id": 1,
+      "sliderHead": "Learn on your schedule",
+      "sliderContent": "Anywhere, anytime. Enjoy risk-free with our 30-day, money-back guarantee",
+      "sliderImage": "imgs/slider/home-page-1.jpg"
+    },
+    {
+      "id": 2,
+      "sliderHead": "Courseware.com – Just add Trainers",
+      "sliderContent": "Get all the courses for only $9950, money-back guarantee",
+      "sliderImage": "imgs/slider/home-page-2.jpeg"
+    },
+    {
+      "id": 3,
+      "sliderHead": "Courseware.com – Just add Trainers",
+      "sliderContent": "Classroom-ready training materials, money-back guarantee",
+      "sliderImage": "imgs/slider/home-page-3.jpg"
+    }
+  ],
+
+  "portfolio": [
+    {
+      "id": 1,
+      "image": "/images/portfolio-img1.jpg"
+    },
+    {
+      "id": 2,
+      "image": "/images/portfolio-img2.jpg"
+    },
+    {
+      "id": 3,
+      "image": "/images/portfolio-img3.jpg"
+    },
+    {
+      "id": 4,
+      "image": "/images/portfolio-img4.jpg"
+    },
+    {
+      "id": 5,
+      "image": "/images/portfolio-img5.jpg"
+    },
+    {
+      "id": 6,
+      "image": "/images/portfolio-img6.jpg"
+    },
+    {
+      "id": 7,
+      "image": "/images/portfolio-img4.jpg"
+    },
+    {
+      "id": 8,
+      "image": "/images/portfolio-img8.jpg"
+    }
+  ],
+  "social": [
+    {
+      "id": 1,
+      "icon": "icon fa fa-facebook fa-lg",
+      "title": "Follow Me on",
+      "body": "Social Facebook"
+    },
+    {
+      "id": 2,
+      "icon": "icon fa fa-twitter fa-lg",
+      "title": "Tweet Me on",
+      "body": "Social twitter"
+    },
+    {
+      "id": 3,
+      "icon": "icon fa fa-pinterest fa-lg",
+      "title": "Pin Me on",
+      "body": "Social Pinterest"
+    }
+  ],
+
+  "event": [
+    {
+      "id": 1,
+      "Image": "imgs/services/services-one.png",
+      "Number": "20",
+      "Month": "January",
+      "Date": "2019",
+      "HeadEvent": "This is The First Event",
+      "Content": "Lorem ipsum is simply dummy test of the printing typesetting."
+    },
+    {
+      "id": 2,
+      "Image": "imgs/services/services-one.png",
+      "Number": "08",
+      "Month": "March",
+      "Date": "2018",
+      "HeadEvent": "This is The Second Event",
+      "Content": "Lorem ipsum is simply dummy test of the printing typesetting."
+    },
+    {
+      "id": 3,
+      "Image": "imgs/services/services-one.png",
+      "Number": "15",
+      "Month": "May",
+      "Date": "2017",
+      "HeadEvent": "This is The Third Event",
+      "Content": "Lorem ipsum is simply dummy test of the printing typesetting."
+    },
+    {
+      "id": 4,
+      "Image": "imgs/services/services-one.png",
+      "Number": "25",
+      "Month": "July",
+      "Date": "2016",
+      "HeadEvent": "This is The Fourth Event",
+      "Content": "Lorem ipsum is simply dummy test of the printing typesetting."
+    }
+  ],
+
+  "services": [
+    {
+      "id": 1,
+      "Icon": "imgs/feature/icon2.png",
+      "HeadServ": "The First Heading",
+      "ContentServ": "This is The Main First Paragraph Of Services Deserunt Mollit Anim"
+    },
+    {
+      "id": 2,
+      "Icon": "imgs/feature/icon3.png",
+      "HeadServ": "The Second Heading",
+      "ContentServ": "This is The Main Second Paragraph Of Services Deserunt Mollit Anim"
+    },
+    {
+      "id": 3,
+      "Icon": "imgs/feature/icon2.png",
+      "HeadServ": "The Third Heading",
+      "ContentServ": "This is The Main Third Paragraph Of Services Deserunt Mollit Anim"
+    }
+  ],
+
+  "fixedHead" : [
+      {
+          "id" : 1,
+          "Image" : "imgs/Doctors/tickets.jpeg"
+      }
+  ],
+
+  "servicesPage" : [
+    {
+        "id" : 1,
+        "Image" : "imgs/services/services-one.png",
+        "Heading": "This Is Heading Text",
+        "Content": "This Is Content Text In The Services Page Lorem ipsum is simly dummy text Lorem ipsum is and typsetting industry"
+    },
+    {
+      "id" : 2,
+      "Image" : "imgs/services/services-two.jpg",
+      "Heading": "This Is Heading Text",
+      "Content": "This Is Content Text In The Services Page Lorem ipsum is simly dummy text Lorem ipsum is and typsetting industry"
+    },
+    {
+      "id" : 3,
+      "Image" : "imgs/services/services-three.jpg",
+      "Heading": "This Is Heading Text",
+      "Content": "This Is Content Text In The Services Page Lorem ipsum is simly dummy text Lorem ipsum is and typsetting industry"
+    },
+    {
+      "id" : 4,
+      "Image" : "imgs/services/services-one.png",
+      "Heading": "This Is Heading Text",
+      "Content": "This Is Content Text In The Services Page Lorem ipsum is simly dummy text Lorem ipsum is and typsetting industry"
+    },
+    {
+    "id" : 5,
+    "Image" : "imgs/services/services-two.jpg",
+    "Heading": "This Is Heading Text",
+    "Content": "This Is Content Text In The Services Page Lorem ipsum is simly dummy text Lorem ipsum is and typsetting industry"
+    },
+    {
+    "id" : 6,
+    "Image" : "imgs/services/services-three.jpg",
+    "Heading": "This Is Heading Text",
+    "Content": "This Is Content Text In The Services Page Lorem ipsum is simly dummy text Lorem ipsum is and typsetting industry"
+    }
+],
+
+"whyus" : [
+  {
+    "id" : 1,
+    "Image": "imgs/icons/icon1.png",
+    "Heading": "Lorem Ipsum is simply Dummy",
+    "Content": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim."
+  },
+  {
+    "id" : 2,
+    "Image": "imgs/icons/icon2.png",
+    "Heading": "Lorem Ipsum is simply Dummy",
+    "Content": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim."
+  },
+  {
+    "id" : 3,
+    "Image": "imgs/icons/icon3.png",
+    "Heading": "Lorem Ipsum is simply Dummy",
+    "Content": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim."
+  }
+],
+
+"ourPartner" : [
+  {
+    "id" : 1,
+    "Image": "imgs/Clients/client-1.png"
+  },
+  {
+    "id" : 2,
+    "Image": "imgs/Clients/client-2.png"
+  },
+  {
+    "id" : 3,
+    "Image": "imgs/Clients/client-3.png"
+  },
+  {
+    "id" : 4,
+    "Image": "imgs/Clients/client-4.png"
+  }
+]
+
+
+
+}

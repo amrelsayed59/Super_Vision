@@ -1,0 +1,125 @@
+@import 'sass/helpers/variables';
+
+
+// Start Header 
+.header {
+    -webkit-box-shadow: 4px 2px 5px 1px #f3f0f0;
+    -moz-box-shadow: 4px 2px 5px 1px #f3f0f0;
+    box-shadow: 4px 2px 5px 1px #f3f0f0;
+    background: #FFF;
+
+    .navbar{
+        padding: 0;
+        @media(max-width: 575px){
+            padding: .5rem 1rem;
+        }
+    }//navbar
+
+
+    .img-logo{
+        @media(max-width: 575px){
+            padding: 0 5px;
+        }
+        img{
+            width: 50%;
+            height: 69px;
+            padding: 10px 0px;
+            object-fit: contain;
+            @media(min-width: 768px) and (max-width: 991px){
+                width: 100%;
+                height: 71px;
+                padding: 5px 0px;
+            }//media
+        }//img
+    }//img-logo
+
+    
+    .navbar-toggler{
+        outline: none; 
+        cursor: pointer;
+      
+        @media(max-width: 575px){
+            float: right;
+            margin-top: -55px;
+        }
+    }//navbar-toggler
+
+
+    
+   .nav-item{
+        margin: 0 5px;
+        @media(min-width: 992px) and (max-width: 1199px){
+            margin: 0 1px;
+        }//media
+
+        @media(min-width: 768px) and (max-width: 991px){
+            margin: 0 1px;
+        }
+       
+           .dropdown-menu{border: none;}
+
+           .active{
+                background-color: $blueColor;
+                color: #fff !important;
+           }//actove
+      
+            .nav-link{ 
+                color: #000;
+                font-weight: bold;
+                border: 3px solid transparent;
+                -webkit-transition: all .3s ease-in-out;
+                -moz-transition: all .3s ease-in-out;
+                -o-transition: all .3s ease-in-out;
+                transition: all .3s ease-in-out;
+                @media(max-width: 575px){
+                    padding: 10px 15px;
+                    margin: 10px 0;
+                }//media
+        }//nav-link
+    }//nav-item
+    
+    .navbar-nav{
+        margin: auto;
+        
+        .nav-link{
+            text-align: center;
+            padding: 20px 5px;
+            @media(min-width: 992px) and (max-width: 1199px){
+                padding: 20px 2px;
+            }//media
+            @media(min-width: 768px) and (max-width: 991px){
+                padding: 22px 3px;
+                font-size: 14px;
+            }
+            &:hover{
+                background-color: $blueColor;
+                color: #fff;
+            }
+        }//nav-link
+
+        .dropdown-toggle{
+            &:after{
+                display: none;
+            }//after
+        }//dropdown-toggle
+
+        .dropdown-menu{
+            margin-top: 1px;
+            .dropdown-item{
+                @media(max-width: 575px){
+                    text-align: center;
+                    padding: 10px 10px;
+                    font-weight: bold;
+                }//media
+                &:hover{
+                    background-color: $blueColor !important;
+                    color: #fff !important;
+                }//hover
+            }//dropdown-item
+        }//drop-menu
+
+    }//navbar-nav
+    
+}/*header*/
+
+
